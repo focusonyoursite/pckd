@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 # check if not BACKEND_URL is set
-# if it is not set, default to 'http://server:4000'
+# if it is not set, default to 'http://server:4444'
 if [ -z "$BACKEND_URL" ]; then
-    set BACKEND_URL="http://server:4000"
+    set BACKEND_URL="http://server:4444"
     echo "BACKEND_URL not set, defaulting to $BACKEND_URL"
 fi
 

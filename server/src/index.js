@@ -12,7 +12,7 @@ require("dotenv").config();
 
 // Apollo Server utils
 const schema = require("./schema");
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4444;
 
 // Database
 const { PrismaClient } = require("@prisma/client");

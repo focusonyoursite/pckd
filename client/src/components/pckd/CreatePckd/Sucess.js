@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import styled from "styled-components";
-import Lottie from "react-lottie";
+import Lottie from "react-lottie-player";
 import plantAnimation from "../../../assets/images/planting.json";
 
 const LottieWrapper = styled.div`
